@@ -1,29 +1,7 @@
-# Nodejs Express Minimal Boilerplate
+# Random Quote
 
-Primarily made to save the time I spend getting everything in shape before writing the actual project code. This boilerplate is as minimal as it gets.
-
-### Prerequisites
-```
-Nodejs
-```
-
-### Installation
-```
-$ git clone https://github.com/abhn/Nodejs-Express-Minimal-Boilerplate
-$ cd Nodejs-Express-Minimal-Boilerplate/
-$ npm install
-$ npm start
-```
-Optionally, for automatic reload on file change
-```
-# npm install -g supervisor
-$ supervisor index.js
-```
-
-### Structure
-- `/public` holds all static files
-  - `/public/css` common css
-  - `/public/js` common js
-- `/views` holds handlebar views
-  - `/views/layouts` common layouts
-- `/index.js` entry file
+Random quote everytime you refresh the page. `/quote` for the quote page. Following are the APIs implemented.
+- `/quote` - HTML page
+- `/quote.txt` - Plain text
+- `/quote.json` - JSON
+- `/quote.xml` - XML
