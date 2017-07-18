@@ -9,7 +9,7 @@ Nodejs
 
 ### Installation
 ```
-$ git clone https://github.com/abhn/Nodejs-Express-Minimal-Boilerplate
+$ git clone -b master --single-branch https://github.com/abhn/Nodejs-Express-Minimal-Boilerplate
 $ cd Nodejs-Express-Minimal-Boilerplate/
 $ npm install
 $ npm start
